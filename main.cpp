@@ -8,19 +8,19 @@ using namespace assignment;
 
 int main(int argc, char **argv) {
 
-  Matrix2x2 mat = {{{1, 1}, {1, 0}}};
+//  Matrix2x2 mat = {{{1, 1}, {1, 0}}};
+//
+//  // 0 1 1 2 3 5 8 13 21 34
+//  mat = matrix_power(FibMatrix, 3); // = 8
+//  for (const auto& rows: mat) {
+//    for (int elem: rows) {
+//      cout << elem << '\t';
+//    }
+//    cout << '\n';
+//  }
+  cout<< fib_matrix(2);
 
-  // 0 1 1 2 3 5 8 13 21 34
-  mat = matrix_power(FibMatrix, 3); // = 8
 
-  for (const auto& rows: mat) {
-    for (int elem: rows) {
-      cout << elem << '\t';
-    }
-    cout << '\n';
-  }
-
-  cout << fib_matrix(9);
 
   return 0;
 }
