@@ -70,6 +70,7 @@ namespace assignment {
     }
     Matrix2x2 mat = FibMatrix;
     mat = matrix_power(mat, n-1);
+
     return mat[0][0] + mat[0][1];
   }
 
