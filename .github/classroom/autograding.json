@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Fibonacci::Binet",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci::Binet\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Fibonacci::Iterative",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci::Iterative\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Fibonacci::Recursive",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci::Recursive\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Fibonacci::Memoization",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci::Memoization\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Fibonacci::Matrix",
+      "setup": "",
+      "run": "ctest -VVV --output-on-failure --test-dir build -R \"Fibonacci::Matrix\"",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
